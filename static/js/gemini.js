@@ -31,7 +31,7 @@ myForm.addEventListener("submit", function(event) {
     document.getElementById(id_creation).innerText = inputValue;
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "helperbot", true);
+    xhr.open("POST", " ", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
     xhr.onreadystatechange = function() {
